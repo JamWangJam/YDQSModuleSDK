@@ -32,8 +32,10 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
 
 
 - (void)backBtnClick{
+    [self.navigationController popViewControllerAnimated:YES];
+    
     if (self.callback) {
-       self.callback(@{@"alertAction":self.action});
+       self.callback(@{@"alertAction":@"测试点击返回按钮 "});
     }
 }
 /*
