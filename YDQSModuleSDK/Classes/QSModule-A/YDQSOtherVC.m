@@ -27,11 +27,14 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
 
 - (void)backBlock:(NSDictionary *)params{
     self.callback = params[@"confirmAction"];
+    
 }
 
 
 - (void)backBtnClick{
-    
+    if (self.callback) {
+       self.callback(@{@"alertAction":self.action});
+    }
 }
 /*
 #pragma mark - Navigation
