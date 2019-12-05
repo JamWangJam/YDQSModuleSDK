@@ -6,11 +6,11 @@
 //  Copyright © 2019 Jam 王. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import "BaseViewController.h"
 
+#import <BaseViewController.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YDQSOtherVC : UIViewController
+@interface YDQSOtherVC : BaseViewController
 - (void)backBlock:(NSDictionary *)params;
 @end
 

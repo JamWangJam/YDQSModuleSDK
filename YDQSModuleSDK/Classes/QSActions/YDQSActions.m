@@ -23,9 +23,8 @@
 - (id)showAlert:(NSDictionary *)params {
 
       YDQSOtherVC *viewController = [[YDQSOtherVC alloc] init];
-      [viewController showAlert:params];
-    
-    //  viewController.valueLabel.text = params[@"key"];
+    [viewController backBlock:params];
+   
       return viewController;
 }
 @end

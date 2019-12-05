@@ -7,7 +7,6 @@
 //
 
 @import UIKit;
-
 @interface YDViewController : UIViewController
 
 @end
