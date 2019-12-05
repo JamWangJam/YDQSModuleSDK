@@ -18,6 +18,7 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"签收业务组件";
+    self.view.backgroundColor = [UIColor blackColor];
     UIButton * backBtn = [UIButton buttonWithType:0];
     [backBtn setTitle:@"confirmAction" forState:0];
     [backBtn setTitleColor:[UIColor redColor] forState:0];
