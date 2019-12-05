@@ -5,9 +5,10 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - YDBaseClassSDK (0.0.3):
-    - YDCategorySDK (= 0.0.1)
-  - YDCategorySDK (0.0.1)
-  - YDQSModuleSDK (0.0.1)
+    - YDCategorySDK (= 0.0.2)
+  - YDCategorySDK (0.0.2)
+  - YDQSModuleSDK (0.0.2):
+    - YDBaseClassSDK (= 0.0.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -29,17 +30,17 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YDBaseClassSDK:
-    :commit: 1479b1563bdeb6a5f6ee8ec83db97d848cd9b23a
+    :commit: 86d07c62b7fbf0f4555172e4061854cb571b798f
     :git: https://github.com/JamWangJam/YDBaseClassSDK.git
   YDCategorySDK:
-    :commit: 7d1d834da6f8706808bc14e16830edf9ae8dae2c
+    :commit: bdffbf21a45f1e684eae8d656afb86e3be2f60d3
     :git: https://github.com/JamWangJam/YDCategorySDK.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YDBaseClassSDK: 47cb6b4da5b227f7d42a5796b89f70ed68e1e682
-  YDCategorySDK: 65370e8c636798cc49f5da89f600e0701fbda450
-  YDQSModuleSDK: 5f111356a08ba94215b57a9dd6e4edcfa17e7484
+  YDBaseClassSDK: 4e7f43e024570bd4ae939518bc56c9af7f5cc34e
+  YDCategorySDK: 9082c9a40d099448b6e1e9c3b54ef82679784917
+  YDQSModuleSDK: d771c154339af0e14428201c8391fbb32612f684
 
 PODFILE CHECKSUM: 21b9a5353cd14ded7a5d61b1d2e31ef1b0e382b7
 

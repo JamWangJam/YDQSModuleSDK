@@ -21,6 +21,9 @@ typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
     self.view.backgroundColor = [UIColor blackColor];
     UIButton * backBtn = [UIButton buttonWithType:0];
     [backBtn setTitle:@"confirmAction" forState:0];
+      backBtn.frame =CGRectMake(0, 0, 100, 200);
+    backBtn.center = self.view.center;
+  
     [backBtn setTitleColor:[UIColor redColor] forState:0];
     [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];

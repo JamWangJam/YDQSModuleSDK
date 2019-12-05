@@ -11,52 +11,53 @@
 		0E0952AAD9473E49A0CDDF1DBF683D66 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA1D9862A93B8804DE6EA3263884CF5 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E923EBC449AD658190EA8C0823F561 /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E49979225B3150D17015FB924E698AA /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B6762CE475AE41C80731D342B05215 /* QuartzCore.framework */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9A7C280282225E571892EDC9AC8260 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3973A259B0ABCB3207C453DD569E44AC /* UIImage+Compare.m */; };
 		2E6AEFC781A0FE615286CF5CA2D028D6 /* YDBaseClassSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEFA68FE470B3841AE4341D938480F /* YDBaseClassSDK-dummy.m */; };
-		3A0F6223443C97FABCC68C0ACB5F0FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CAB562A0D27B6054A06AFA64C900817 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40F930CD24B93BFED55AC7A1D1FD9EC6 /* YDQSOtherVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF7632ACA269747C1E3D4C65E2B8A19 /* YDQSOtherVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41185F74255EE563AA04A23031CBA466 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387A41ABB191F9D25168BE26EE1CA71 /* BaseViewController.m */; };
 		4260283DC41E58F5AD341C06DAF8AFC5 /* Pods-YDQSModuleSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A7EF916CBD9A785D1E62C31509A92B /* Pods-YDQSModuleSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FD45051643D3D4B7A8BCB820D62E485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
-		5334B5BDC6EFBD19566EA230D329EA3B /* YDQSOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A29664E7116E3EFF444B645CC757 /* YDQSOtherVC.m */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1FD4110D3861AED7FE548E59EBBD3 /* XCTest.framework */; };
+		4CA6B1762254AD2DC05252AC139C14D8 /* YDBaseClassSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6428700743F56330682AFE6A93F25722 /* YDBaseClassSDK.framework */; };
+		4FD45051643D3D4B7A8BCB820D62E485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
+		54165CD054A120B8ACE380695DA03E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB48FFAD0DBB0D85E9563CD9D716446 /* XCTest.framework */; };
 		6D67738CD1C802354DC14E8D0C8CA9F1 /* YDCategorySDKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B68AACBF5DF11174C112395101EA8F75 /* YDCategorySDKHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DAD67625E7F5955C8D1C93F296E2436 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA09025DEF748FABA6720CF398BAA5F /* BaseNavigationController.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7613F3C3283BCC397590F46FBB2D945B /* FBSnapshotTestCase-dummy.m */; };
-		75694034D6049761471321C953EF65F9 /* YDQSOtherVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF7632ACA269747C1E3D4C65E2B8A19 /* YDQSOtherVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78383F6406885155142C4A5092BB72DD /* UINavigationController+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = F433F8EF7162800796A637567A12CC14 /* UINavigationController+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		783FA59D88551C5F6CCF4C91AD6FF6BA /* YDCategorySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E585287016F766B24B2F2E90C78172FF /* YDCategorySDK.framework */; };
+		783FA59D88551C5F6CCF4C91AD6FF6BA /* YDCategorySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B165DDD66EA4A37F67DB9FE6B85460A /* YDCategorySDK.framework */; };
 		78D5736BCB8324E0D343AE1728613405 /* YDCategorySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B167D515484BB660E62AEB18BB887BF /* YDCategorySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80FF1173DCA7428924D52A0F8E100A9B /* Pods-YDQSModuleSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331B6669A97DF642F623F316E6866FC9 /* Pods-YDQSModuleSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83B91DC10144A7C52981CB89A2773ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
+		83B91DC10144A7C52981CB89A2773ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB72915BDF732347DD5214E4AACA0644 /* FBSnapshotTestController.m */; };
 		89407DB801DA2130AF976FD16052AD6A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9E6C085F9A65C8E1F295E46B151475 /* BaseModel.m */; };
-		8AFCD6D40D70C9781982989EB126AE60 /* YDQSActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC2B116930A99A12216AD6D6B6C1B4C /* YDQSActions.m */; };
+		8AF51B0C4B200020BBAB17E1A252671E /* YDQSActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AC68DF93D81BDF820FEF0DFD51E11D /* YDQSActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BB5FD70DC55FC3E058F44AC8F62BD /* FBSnapshotTestCase.m */; };
-		8D2A71B966777619B4A3D8DE1480BF66 /* YDQSModuleSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E2DE2E1229BA5A9C94466F31B4F73 /* YDQSModuleSDK-dummy.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 877AB61F2F52A6773E9569A1050E6371 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90CBC356E6BF04FF998751EBEA05A201 /* BaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFFE875413FA5DEC848835304DBD71F /* BaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C75FAEC38929144B8326A7E63050526 /* YDCategorySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D58BA009FEBC477340BFD9EC4AA805BE /* YDCategorySDK-dummy.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD992801AD1365E21567691911CCC7 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA22B6B8796A8106B7DC99D38A34DD1 /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
-		B54459E1EBBE01AD7F3106B38330350A /* YDQSActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AC68DF93D81BDF820FEF0DFD51E11D /* YDQSActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
+		B69B2CC62E26A3F2FEE75F2AE7E51C7B /* YDQSActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC2B116930A99A12216AD6D6B6C1B4C /* YDQSActions.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = E092246B4E8F545689A8F5B245FA370E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C3ECA24537FF65F1CE7F09ACA078C063 /* UINavigationController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 66457AF7DF94E5BBF94701EE47BE467E /* UINavigationController+Category.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3893D46AB9EE582BB3EE087F7BC90 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB2EE96C300D47484AE439526EB6580B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
+		CB2EE96C300D47484AE439526EB6580B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C3ADB5FDA128E9B4378C70686DB802 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D17C6D2CDE2BB7B7FEEEB31C7AA67E9C /* YDBaseClassSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 572E23C5AD54CCA6779C9146B0F02B5E /* YDBaseClassSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7EFCD1BDAEB0A03807F612BFADF22BD /* YDQSModuleSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0A28652606C193088D15741894ED43 /* YDQSModuleSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2924747BB12E350CC1B50976EEAF5E /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C9C8976218541AFC36B851DD7B326C /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB272E75E1DCDB1C668F7FCF66AFA2D /* UIKit.framework */; };
-		E639A8631CF2CFF8853D98B46ECE4FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779139F846FE010E6315FFA022230B63 /* UIKit.framework */; };
+		E639A8631CF2CFF8853D98B46ECE4FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */; };
 		E7B43AC40A3A8B6CBE248146861CEDC3 /* Pods-YDQSModuleSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BEA4A88463F67233E2235F7F82752A /* Pods-YDQSModuleSDK_Tests-dummy.m */; };
+		E8A0630CB24E1C69CC3350472C01ECD9 /* YDQSOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A29664E7116E3EFF444B645CC757 /* YDQSOtherVC.m */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 115180D0D75C69D75694120D17D078D6 /* FBSnapshotTestCasePlatform.m */; };
 		EB366CC3ED7BA1DB9DB7A7858B86B282 /* Pods-YDQSModuleSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03C4081C5ABC5565A6510114AA8391 /* Pods-YDQSModuleSDK_Example-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B001510B3990F325188A15947BEA4C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F7178D26E9B5F244343C6CFDF1BDA8D6 /* YDQSModuleSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E2DE2E1229BA5A9C94466F31B4F73 /* YDQSModuleSDK-dummy.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3CDADC154BA99F77D6CDB1F5079925 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBE34C11BA111FD7823A59A54D150C6B /* YDQSModuleSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0A28652606C193088D15741894ED43 /* YDQSModuleSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,13 @@
 			remoteGlobalIDString = E7AD216DEBACA888D32B62B6C78B9C7D;
 			remoteInfo = YDQSModuleSDK;
 		};
+		E8B163A96712B5E49B17A68A63825C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D5D4F48EE035E2E51AA7752B6143E1;
+			remoteInfo = YDBaseClassSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +117,7 @@
 		0C7F9A600CEB6DD3337CB01A2E561D3A /* YDBaseClassSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDBaseClassSDK.framework; path = YDBaseClassSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		115180D0D75C69D75694120D17D078D6 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		12E923EBC449AD658190EA8C0823F561 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		17BEA4A88463F67233E2235F7F82752A /* Pods-YDQSModuleSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDQSModuleSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C40513AD2AE04CC33F725CCE3E4DC9F /* YDQSModuleSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDQSModuleSDK.modulemap; sourceTree = "<group>"; };
 		1CAB562A0D27B6054A06AFA64C900817 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
@@ -125,10 +134,10 @@
 		34AC68DF93D81BDF820FEF0DFD51E11D /* YDQSActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YDQSActions.h; sourceTree = "<group>"; };
 		3973A259B0ABCB3207C453DD569E44AC /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3F95D119EDCC709587AFD327138F91C2 /* Pods-YDQSModuleSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDQSModuleSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		40B6762CE475AE41C80731D342B05215 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		4219A3957B53B6ECE386C21D33A4188B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		440CFF9ABB6408445CE614E1717D5208 /* Pods-YDQSModuleSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDQSModuleSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		495FF3747C32DFCD65BC91F7E9094B40 /* Pods-YDQSModuleSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDQSModuleSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AB48FFAD0DBB0D85E9563CD9D716446 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4AF7632ACA269747C1E3D4C65E2B8A19 /* YDQSOtherVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YDQSOtherVC.h; sourceTree = "<group>"; };
 		4B0A28652606C193088D15741894ED43 /* YDQSModuleSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDQSModuleSDK-umbrella.h"; sourceTree = "<group>"; };
 		4B3FD539A6973EA926C946756013479B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -141,6 +150,7 @@
 		5EAEFA68FE470B3841AE4341D938480F /* YDBaseClassSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDBaseClassSDK-dummy.m"; sourceTree = "<group>"; };
 		633A317EF1902D86801B4E6E14BD920D /* Pods-YDQSModuleSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDQSModuleSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		635540731B3EF9B367C3B2B00D7DCADB /* YDBaseClassSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDBaseClassSDK-prefix.pch"; sourceTree = "<group>"; };
+		6428700743F56330682AFE6A93F25722 /* YDBaseClassSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDBaseClassSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64489E76DD95656F4DA0F19C5890AF9E /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		66457AF7DF94E5BBF94701EE47BE467E /* UINavigationController+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Category.m"; path = "YDCategorySDK/Classes/UINavigationController+Category.m"; sourceTree = "<group>"; };
 		67D1528979E3E242FC2D42DC3E4D7944 /* YDQSModuleSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDQSModuleSDK.xcconfig; sourceTree = "<group>"; };
@@ -149,16 +159,17 @@
 		6DF85C1339EA51ADF75F8EF908448E47 /* Pods-YDQSModuleSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDQSModuleSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E49979225B3150D17015FB924E698AA /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		7613F3C3283BCC397590F46FBB2D945B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		779139F846FE010E6315FFA022230B63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7820D1F2D96725B715D5979D5F9DAF79 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		79B2A6940C15DE0AF4962184007E4435 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		7A4F9C53C99D02772C07FF174C5BE4DD /* YDCategorySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDCategorySDK.modulemap; sourceTree = "<group>"; };
 		7AA22B6B8796A8106B7DC99D38A34DD1 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		7B167D515484BB660E62AEB18BB887BF /* YDCategorySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCategorySDK-umbrella.h"; sourceTree = "<group>"; };
-		7DD1FD4110D3861AED7FE548E59EBBD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83B165E01890F8663214C88819A70FB5 /* YDQSModuleSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDQSModuleSDK-Info.plist"; sourceTree = "<group>"; };
 		8631E87E7510949B9E00AAEA71BD573A /* Pods-YDQSModuleSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDQSModuleSDK_Example.modulemap"; sourceTree = "<group>"; };
 		877AB61F2F52A6773E9569A1050E6371 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		95418914CA9E341468BE92BD4135BA66 /* YDBaseClassSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDBaseClassSDK-Info.plist"; sourceTree = "<group>"; };
+		9B165DDD66EA4A37F67DB9FE6B85460A /* YDCategorySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDCategorySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B63A29664E7116E3EFF444B645CC757 /* YDQSOtherVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YDQSOtherVC.m; sourceTree = "<group>"; };
 		9BFFE875413FA5DEC848835304DBD71F /* BaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = YDBaseClassSDK/Classes/BaseNavigationController.h; sourceTree = "<group>"; };
 		9D03C4081C5ABC5565A6510114AA8391 /* Pods-YDQSModuleSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDQSModuleSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -168,7 +179,6 @@
 		AB6E2DE2E1229BA5A9C94466F31B4F73 /* YDQSModuleSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDQSModuleSDK-dummy.m"; sourceTree = "<group>"; };
 		AB72915BDF732347DD5214E4AACA0644 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		B68AACBF5DF11174C112395101EA8F75 /* YDCategorySDKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YDCategorySDKHeader.h; path = YDCategorySDK/Classes/YDCategorySDKHeader.h; sourceTree = "<group>"; };
-		BFB272E75E1DCDB1C668F7FCF66AFA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C6B001510B3990F325188A15947BEA4C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C95962295757B1BCB2CF4505904043F6 /* Pods_YDQSModuleSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDQSModuleSDK_Example.framework; path = "Pods-YDQSModuleSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF37F7DD8E9428CE146D34306704DB3 /* YDCategorySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCategorySDK.xcconfig; sourceTree = "<group>"; };
@@ -178,15 +188,14 @@
 		DBDC921475404F03AC53EA712C39DD5C /* Pods-YDQSModuleSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDQSModuleSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E092246B4E8F545689A8F5B245FA370E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		E4C3ADB5FDA128E9B4378C70686DB802 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E585287016F766B24B2F2E90C78172FF /* YDCategorySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDCategorySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94AC765AF8268B86B7D8813B7325A4E /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		EDD296BE70AE00FE4B43508A5C35A252 /* YDQSModuleSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDQSModuleSDK-prefix.pch"; sourceTree = "<group>"; };
 		EE77E4EF4FE9D919FEF7B2490A467DDF /* YDCategorySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCategorySDK-prefix.pch"; sourceTree = "<group>"; };
+		EF9A7C280282225E571892EDC9AC8260 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F433F8EF7162800796A637567A12CC14 /* UINavigationController+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Category.h"; path = "YDCategorySDK/Classes/UINavigationController+Category.h"; sourceTree = "<group>"; };
 		F7A7EF916CBD9A785D1E62C31509A92B /* Pods-YDQSModuleSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDQSModuleSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FAA1D9862A93B8804DE6EA3263884CF5 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = YDBaseClassSDK/Classes/BaseViewController.h; sourceTree = "<group>"; };
 		FC77F2658A0B0DC7BD22B04EA5D5E8DF /* Pods-YDQSModuleSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDQSModuleSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FF0CA8ADB9330DFE85149EC30EAB1D84 /* YDBaseClassSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDBaseClassSDK.xcconfig; sourceTree = "<group>"; };
 		FF13FA7F8A73197211C53F03126C5184 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FF3CDADC154BA99F77D6CDB1F5079925 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
@@ -217,20 +226,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4C8471EFF3957B45BB92B7D8BA294DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54165CD054A120B8ACE380695DA03E2A /* Foundation.framework in Frameworks */,
+				4CA6B1762254AD2DC05252AC139C14D8 /* YDBaseClassSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1E337CFE603CF5D906982BD75CA2541 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB2EE96C300D47484AE439526EB6580B /* Foundation.framework in Frameworks */,
 				783FA59D88551C5F6CCF4C91AD6FF6BA /* YDCategorySDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACC3EC070BD66C7DEC794E42A787C40B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A0F6223443C97FABCC68C0ACB5F0FA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,17 +319,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5AA4DF1AC341A72CE776049C77195BF2 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FEAE886CF65D02BA804265FF55CD17A9 /* Foundation.framework */,
-				40B6762CE475AE41C80731D342B05215 /* QuartzCore.framework */,
-				BFB272E75E1DCDB1C668F7FCF66AFA2D /* UIKit.framework */,
-				7DD1FD4110D3861AED7FE548E59EBBD3 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		6A35C8784FD92C4E10008E83222904B3 /* YDCategorySDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +329,17 @@
 			);
 			name = YDCategorySDK;
 			path = YDCategorySDK;
+			sourceTree = "<group>";
+		};
+		6C417B3C23AAFF4B2F69AD6B9FF36E04 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13BA7A858DE82C13D3393E07565CADB0 /* Foundation.framework */,
+				EF9A7C280282225E571892EDC9AC8260 /* QuartzCore.framework */,
+				779139F846FE010E6315FFA022230B63 /* UIKit.framework */,
+				4AB48FFAD0DBB0D85E9563CD9D716446 /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6D12F47DA1386133297BF2F751F02EC0 /* Pods-YDQSModuleSDK_Example */ = {
@@ -467,18 +477,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				02C4B5916E2C97773F59D2C606E1F85B /* Development Pods */,
-				CF902174B257997E6260BF3481278E30 /* Frameworks */,
+				E22ED253C732A7DD4C82D132E5C53D56 /* Frameworks */,
 				B3FE2311A177D466B9F9CB5E5CFCCD32 /* Pods */,
 				03954936D7DAF841A6BB5A8E675EDD17 /* Products */,
 				432C72C47B14757BCD0359A792D615A9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF902174B257997E6260BF3481278E30 /* Frameworks */ = {
+		E22ED253C732A7DD4C82D132E5C53D56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E585287016F766B24B2F2E90C78172FF /* YDCategorySDK.framework */,
-				5AA4DF1AC341A72CE776049C77195BF2 /* iOS */,
+				6428700743F56330682AFE6A93F25722 /* YDBaseClassSDK.framework */,
+				9B165DDD66EA4A37F67DB9FE6B85460A /* YDCategorySDK.framework */,
+				6C417B3C23AAFF4B2F69AD6B9FF36E04 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -566,13 +577,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A18A85089DB68FA0C4B6E8524B02D08F /* Headers */ = {
+		4197106FC50C92E61CCE3D07D25C662C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54459E1EBBE01AD7F3106B38330350A /* YDQSActions.h in Headers */,
-				FBE34C11BA111FD7823A59A54D150C6B /* YDQSModuleSDK-umbrella.h in Headers */,
-				75694034D6049761471321C953EF65F9 /* YDQSOtherVC.h in Headers */,
+				8AF51B0C4B200020BBAB17E1A252671E /* YDQSActions.h in Headers */,
+				D7EFCD1BDAEB0A03807F612BFADF22BD /* YDQSModuleSDK-umbrella.h in Headers */,
+				40F930CD24B93BFED55AC7A1D1FD9EC6 /* YDQSOtherVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,16 +696,17 @@
 		};
 		E7AD216DEBACA888D32B62B6C78B9C7D /* YDQSModuleSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB07CFA788235F0047B5B70BEA523C0E /* Build configuration list for PBXNativeTarget "YDQSModuleSDK" */;
+			buildConfigurationList = D630EF3E3DA8ADF2D64BB90837772438 /* Build configuration list for PBXNativeTarget "YDQSModuleSDK" */;
 			buildPhases = (
-				A18A85089DB68FA0C4B6E8524B02D08F /* Headers */,
-				6A043BB8FF20A925771F90097AD47BA5 /* Sources */,
-				ACC3EC070BD66C7DEC794E42A787C40B /* Frameworks */,
-				A24F249DB1FC3CC1A22ADFC3C305F403 /* Resources */,
+				4197106FC50C92E61CCE3D07D25C662C /* Headers */,
+				9D42831FDB5E470E18480ABCD5540E6A /* Sources */,
+				4C8471EFF3957B45BB92B7D8BA294DBE /* Frameworks */,
+				0FFB02567E69BBDD96A0B2CB732CE1CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D131F3B96108C45C7EC3BF4371C3645 /* PBXTargetDependency */,
 			);
 			name = YDQSModuleSDK;
 			productName = YDQSModuleSDK;
@@ -734,6 +746,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0FFB02567E69BBDD96A0B2CB732CE1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A7C7867F2D871567A3BF807D27C2A32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -756,13 +775,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9F4CF6C840A3E4F11A9EA580035DD8FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A24F249DB1FC3CC1A22ADFC3C305F403 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -796,16 +808,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A043BB8FF20A925771F90097AD47BA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AFCD6D40D70C9781982989EB126AE60 /* YDQSActions.m in Sources */,
-				8D2A71B966777619B4A3D8DE1480BF66 /* YDQSModuleSDK-dummy.m in Sources */,
-				5334B5BDC6EFBD19566EA230D329EA3B /* YDQSOtherVC.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		982522313AD34AD18F47D86E5A0C78D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -814,6 +816,16 @@
 				6DAD67625E7F5955C8D1C93F296E2436 /* BaseNavigationController.m in Sources */,
 				41185F74255EE563AA04A23031CBA466 /* BaseViewController.m in Sources */,
 				2E6AEFC781A0FE615286CF5CA2D028D6 /* YDBaseClassSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D42831FDB5E470E18480ABCD5540E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69B2CC62E26A3F2FEE75F2AE7E51C7B /* YDQSActions.m in Sources */,
+				F7178D26E9B5F244343C6CFDF1BDA8D6 /* YDQSModuleSDK-dummy.m in Sources */,
+				E8A0630CB24E1C69CC3350472C01ECD9 /* YDQSOtherVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +879,12 @@
 			name = YDCategorySDK;
 			target = 6746BE645CE7539CF1DAFADE1888CBE1 /* YDCategorySDK */;
 			targetProxy = 738F66CD58ADF2C668F9A00E4CC530C9 /* PBXContainerItemProxy */;
+		};
+		3D131F3B96108C45C7EC3BF4371C3645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YDBaseClassSDK;
+			target = 16D5D4F48EE035E2E51AA7752B6143E1 /* YDBaseClassSDK */;
+			targetProxy = E8B163A96712B5E49B17A68A63825C07 /* PBXContainerItemProxy */;
 		};
 		8AC18024ACB35BAAD27B3C93C5BFF63B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1138,6 +1156,38 @@
 			};
 			name = Release;
 		};
+		7B4CD4A95CD689D529AB61AF81B479AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D1528979E3E242FC2D42DC3E4D7944 /* YDQSModuleSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK.modulemap";
+				PRODUCT_MODULE_NAME = YDQSModuleSDK;
+				PRODUCT_NAME = YDQSModuleSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1236,7 +1286,7 @@
 			};
 			name = Release;
 		};
-		8BF39E0D7C599E402C26F1160BE79635 /* Debug */ = {
+		95FD2AA063F1FCEEEAC7F1B6831B8CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67D1528979E3E242FC2D42DC3E4D7944 /* YDQSModuleSDK.xcconfig */;
 			buildSettings = {
@@ -1266,38 +1316,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		AA850B080F678EB6D86040E661166FEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D1528979E3E242FC2D42DC3E4D7944 /* YDQSModuleSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YDQSModuleSDK/YDQSModuleSDK.modulemap";
-				PRODUCT_MODULE_NAME = YDQSModuleSDK;
-				PRODUCT_NAME = YDQSModuleSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		AB33F24C517E8B6A8CE5A6907216DCC0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1450,11 +1468,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB07CFA788235F0047B5B70BEA523C0E /* Build configuration list for PBXNativeTarget "YDQSModuleSDK" */ = {
+		D630EF3E3DA8ADF2D64BB90837772438 /* Build configuration list for PBXNativeTarget "YDQSModuleSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BF39E0D7C599E402C26F1160BE79635 /* Debug */,
-				AA850B080F678EB6D86040E661166FEF /* Release */,
+				95FD2AA063F1FCEEEAC7F1B6831B8CBC /* Debug */,
+				7B4CD4A95CD689D529AB61AF81B479AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
