@@ -7,9 +7,9 @@
 //
 
 #import "YDQSOtherVC.h"
-
+typedef void (^CTUrlRouterCallbackBlock)(NSDictionary *info);
 @interface YDQSOtherVC ()
-
+@property (nonatomic, copy) CTUrlRouterCallbackBlock callback;
 @end
 
 @implementation YDQSOtherVC
@@ -17,8 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIButton * backBtn = [UIButton buttonWithType:0];
+    [backBtn setTitle:@"confirmAction" forState:0];
+    [backBtn setTitleColor:[UIColor redColor] forState:0];
+    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBtn];
+    
 }
 
+- (void)backBlock:(NSDictionary *)params{
+    self.callback = params[@"confirmAction"];
+}
+
+
+- (void)backBtnClick{
+    
+}
 /*
 #pragma mark - Navigation
 

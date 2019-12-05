@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDQSActions : NSObject
-
+- (UIViewController *)nativeFetchDetailViewController:(NSDictionary *)params;
+- (id)showAlert:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END

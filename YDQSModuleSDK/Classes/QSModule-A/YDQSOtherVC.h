@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YDQSOtherVC : BaseViewController
-
+@interface YDQSOtherVC : UIViewController
+- (void)backBlock:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END
