@@ -7,7 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 
-#import <BaseViewController.h>
+#import "BaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDQSOtherVC : BaseViewController
