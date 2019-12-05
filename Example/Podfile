@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YDQSModuleSDK_Example' do
+  pod 'YDQSModuleSDK', :path => '../'
+
+  target 'YDQSModuleSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
